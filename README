@@ -4,3 +4,4 @@
 - in mysql console:
     * source tpch.ddl
 - run import.sh
+- bench query
