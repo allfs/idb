@@ -1,0 +1,6 @@
+- install infinidb
+- run bench gendata, using bench.properties
+- mysql --protocol=tcp --port=3306
+- in mysql console:
+    * source tpch.ddl
+- run import.sh
