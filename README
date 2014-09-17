@@ -1,7 +1,7 @@
 - shutdown mysql
 - install infinidb
 - adjust dirs in bench.properties
-- java -jar benc.jar gendata
+- java -jar bench.jar gendata
 - mysql --protocol=tcp --port=3306
 - in mysql console:
     * source tpch.ddl
