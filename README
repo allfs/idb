@@ -6,6 +6,6 @@
 - in mysql console:
     * source tpch.ddl
 - cd dbgen
-- sh import.sh
+- sh ../import.sh
 - cd ../
 - java -jar bench.jar query
