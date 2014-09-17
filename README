@@ -1,5 +1,10 @@
 - shutdown mysql
 - install infinidb
+   * tar xzvf infi*gz
+   * rpm -Uvh infi*rpm
+   * /usr/local/Calpont/bin/post-install
+   * /usr/local/Calpont/bin/postConfigure
+     (choose single, internal)
 - adjust dirs in bench.properties
 - java -jar bench.jar gendata
 - mysql --protocol=tcp --port=3306
