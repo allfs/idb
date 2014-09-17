@@ -1,3 +1,4 @@
+- shutdown mysql
 - install infinidb
 - run bench gendata, using bench.properties
 - mysql --protocol=tcp --port=3306
