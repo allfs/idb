@@ -1,4 +1,5 @@
 - shutdown mysql
+- create zfs and mount it at /usr/local/Calpont
 - install infinidb
    * tar xzvf infi*gz
    * rpm -Uvh infi*rpm
