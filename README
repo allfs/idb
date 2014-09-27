@@ -1,8 +1,17 @@
 - shutdown mysql
+- create zfs and mount it at /usr/local/Calpont
 - install infinidb
-- run bench gendata, using bench.properties
+   * tar xzvf infi*gz
+   * rpm -Uvh infi*rpm
+   * /usr/local/Calpont/bin/post-install
+   * /usr/local/Calpont/bin/postConfigure
+     (choose single, internal)
+- adjust dirs in bench.properties
+- java -jar bench.jar gendata
 - mysql --protocol=tcp --port=3306
 - in mysql console:
     * source tpch.ddl
-- run import.sh
-- bench query
+- cd dbgen
+- sh ../import.sh
+- cd ../
+- java -jar bench.jar query
